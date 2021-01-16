@@ -1,6 +1,7 @@
 #include <string>
 #include <sstream>
 #include <iomanip>
+#include <cmath>
 #include "format.h"
 
 using std::string;
