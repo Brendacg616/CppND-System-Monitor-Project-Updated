@@ -20,6 +20,7 @@ System::System()
   kernel_ = LinuxParser::Kernel();
   os_ = LinuxParser::OperatingSystem();
 }
+
 Processor& System::Cpu() { return cpu_; }
 
 vector<Process>& System::Processes() {

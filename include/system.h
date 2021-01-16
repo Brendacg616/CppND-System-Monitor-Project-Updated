@@ -17,14 +17,14 @@ class System {
   int TotalProcesses();
   int RunningProcesses();
   std::string Kernel();
-  std::string OperatingSystem();      
+  std::string OperatingSystem();
 
   // TODO: Define any necessary private members
  private:
   Processor cpu_ = {};
   std::vector<Process> processes_ = {};
-  std::string kernel_;
-  std::string os_;
+  std::string kernel_{""};
+  std::string os_{""};
 };
 
 #endif
